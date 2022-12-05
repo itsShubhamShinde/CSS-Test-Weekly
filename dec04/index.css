@@ -3,7 +3,7 @@
     padding:0;
 }
 .mainContainer{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 100vh;
     width:100vw;
     display:flex;
@@ -11,16 +11,16 @@
     align-items: center;
 }
 .outerBorder{
-    border:2px solid blue;
-    height: 80%;
-    width: 80%;
+    border:1px solid blue;
+    height: 100vh;
+    width: 60vw;
     display:flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
 .account{
-    border:2px solid red;
+    /* border:2px solid red; */
     height: 60%;
     width: 80%;
     margin-top: 10px;
@@ -29,24 +29,28 @@
     justify-content: center;
     
 }
+.accountName{
+    color:orange;
+}
 .acc{
-    border:2px solid gray;
+    /* border:1px solid red; */
     height:fit-content;
-    width:100%;
+    width:80%;
     display:flex;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 2px;
 }
 .acc1{
-    border:1px solid yellow;
-    width: 10%;
+    border:1px solid gray;
+    width: 20%;
 }
 .acc2{
-    border:1px solid yellow;
+    border:1px solid gray;
     width:80%;
+    
 }
 .dob{
-    border:2px solid yellow;
+    /* border:2px solid yellow; */
     height: 60%;
     width: 80%;
     margin-top: 10px;
@@ -54,16 +58,19 @@
     justify-content: space-around;
 }
 .dobfirstcointener{
-    border:2px solid black;
+    /* border:2px solid black; */
     width: 50%;
     display:flex;
     flex-direction: column;
     justify-content: center;
 }
+.dateodBirth{
+    color:orange;
+}
 .dob01{
-    border:2px solid red;
-    height: 80%;
-    width: 50%;
+    /* border:2px solid red; */
+    height: 40%;
+    width: 100%;
     display:flex;
     justify-content: space-around;
     align-items: flex-end;
@@ -71,50 +78,145 @@
 }
 .dobbox1,.dobbox2,.dobbox3{
     border:1px solid grey;
-    height:50%;
-    width: 25%;
+    color:gray;
+    height:70%;
+    width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .dobsecondcointener{
-    border:2px solid black;
+    /* border:2px solid black; */
     width: 50%;
     display:flex;
     flex-direction: column;
     justify-content: center;
 }
+.Gender{
+    color:orange;
+    margin-left: 20px;
+}
 .dob02{
-    border:2px solid red;
-    height: 80%;
-    width: 50%;
+    /* border:2px solid red; */
+    height: 40%;
+    width: 100%;
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-end;
 }
 .dobbox4,.dobbox5{
     border:1px solid grey;
-    height:50%;
-    width: 50%;
+    height:70%;
+    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .personalDetail{
-    border:2px solid green;
-    height: 60%;
+    /* border:2px solid green; */
+    height: 100%;
     width: 80%;
     /* margin-left: 10px; */
     margin-top: 10px;
     display:flex;
-
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin
+    
 }
+.persondetailsdiv1,.persondetailsdiv2{
+    /* border:2px solid black; */
+    height:40%;
+    width: 100%;
+}
+.persondetailsdiv1outerBox1{
+    /* border:2px solid yellow; */
+    height:30%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.paymentdetails{
+    color :orange;
+    display:flex;
+    align-items: center;
+    
+}
+.persondetailsdiv1outerBox2{
+    /* border:2px solid yellow; */
+    height:60%;
+    width: 90%;
+    display:flex;
+    justify-content: space-around;
+   
+}
+
+.cardDetailsBox1,.cardDetailsBox2{
+    border:1px solid gray;
+    width: 40%;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.persondetailsdiv2OuterBox{
+    /* border:2px solid red; */
+    height:100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
+}
+.persondetailsdiv2rowBox1,.persondetailsdiv2rowBox2,.persondetailsdiv2rowBox3{
+    /* border:1px solid blue; */
+    height:30%;
+    width:100%;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.carddetail,.cardCVV,.date{
+    border:1px solid grey;
+    height:100%;
+    width: 60%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .termAndCon{
-    border:2px solid green;
+    /* border:2px solid green; */
     height: 30%;
     width: 80%;
-    /* margin-left: 10px; */
     margin-top: 10px;
     display:flex; 
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.hedding{
+    /* border:2px solid red; */
+    height:20%;
+    width: 100%;
+    color :orange;
+    display:flex;
+    align-items: center;
+}
+.contain{
+    /* border:2px solid red; */
+    height:80%;
+    width: 100%;
+    color :greye;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.containbox{
+    /* border:2px solid black; */
+    height:80%;
+    width:70%;
+    
 }
